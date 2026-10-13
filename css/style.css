@@ -1,0 +1,29 @@
+:root{
+    font-size: 62.5%;
+    --color-white: #FFFFFF;
+    --color-gray: #29374A;
+    --color-blue: #012061; 
+    --color-black: #000000; 
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    margin:0;
+    font-family: "Railway", sans-serif;
+    color: var(--color-gray);
+    background-color: var(--color-white); 
+    overflow-x: hidden;
+    overflow-wrap:break-word;
+}
+h2{
+
+}
+h3{
+
+}
+.header__button{
+
+}
