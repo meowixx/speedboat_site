@@ -24,8 +24,8 @@
         src: url("fonts/raleway-v37-latin-regular.woff2") format("woff2");
       }
     </style>
-    <link rel="stylesheet" href="/css/modern-normalize.css" />
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="css/modern-normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
@@ -40,9 +40,10 @@
       </nav>
 
       <div class="hero">
+        <img class="hero__head" src="img/hat.svg" alt="" />
         <img class="hero__image" src="img/main_photo.png" alt="Катер Рысь-М" />
 
-        <h1 class="hero__title">Рысь-М</h1>
+        <h1 class="sr-only">Рысь-М</h1>
         <p class="hero__subtitle">
           Серийное производство<br />с гарантией качества
         </p>
@@ -59,8 +60,8 @@
         <h2>О нас</h2>
         <iframe
           src="https://kinescope.io/t95fgU7q7imgM9ceobuL44"
-          width="640"
-          height="360"
+          width="400"
+          height="250"
           allow="
             autoplay;
             fullscreen;
@@ -79,7 +80,6 @@
           В 90-х команда «Рысь-М» создала компанию «Утёс» — первопроходца в
           Россиипо производству спортивных глушителейиз нержавеющей стали.
         </h3>
-        <img src="" , alt="" />
         <h3>
           После взлёта популярностии появления множества последователей, прибыль
           стала падать из-за высокой конкуренции на рынке.
@@ -240,19 +240,30 @@
         </table>
       </section>
       <footer id="contacts">
-        <img src="img/logo_main.svg" alt="Main logo">
-        <a href="https://vk.com/...">
-          <img src="vk-logo.png" alt="Логотип ВКонтакте" />
-          ВКонтакте
-        </a>
+        <img
+          src="img/logo_main.svg"
+          alt="Main logo"
+          ,
+          width="360"
+          ,
+          height="64"
+        />
+        <div class="footer-left">
+          <a href="https://vk.com/...">
+            <img src="vk-logo.png" alt="Логотип ВКонтакте" />
+            ВКонтакте
+          </a>
 
-        <a href="https://youtube.com/...">
-          <img src="youtube-logo.svg" alt="Логотип YouTube" />
-          Ютуб канал
-        </a>
-        <p>+7(985) - 226 - 6100</p>
-        <p>+7(916) -645 -2891</p>
-        <p>s4-t@yandex.ru</p>
+          <a href="https://youtube.com/...">
+            <img src="youtube-logo.svg" alt="Логотип YouTube" />
+            Ютуб канал
+          </a>
+        </div>
+        <div class="footer__right">
+          <p>+7(985) - 226 - 6100</p>
+          <p>+7(916) -645 -2891</p>
+          <p>s4-t@yandex.ru</p>
+        </div>
       </footer>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
